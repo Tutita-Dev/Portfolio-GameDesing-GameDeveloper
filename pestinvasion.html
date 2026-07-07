@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pest Invasion — Mauro Albarracín</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body style="--accent-color:#22c55e">
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="back-link">← Back to home</a>
+    <span class="brand" style="font-size:0.78rem;">MAURO ALBARRACÍN</span>
+  </div>
+</nav>
+
+<header class="project-header">
+  <div class="wrap">
+    <span class="pill">2D Platformer · University Project</span>
+    <h1>Pest Invasion</h1>
+    <p style="color:var(--muted); font-size:1.02rem; max-width:640px; margin-bottom:28px;">A 2D platformer where a young inventor, accidentally shrunk to the size of insects, must battle an overwhelming pest invasion inside his family's candy factory using his experimental insecticide.</p>
+    <div class="info-strip">
+      <div class="info-cell"><div class="k">Engine</div><div class="v">Unity</div></div>
+      <div class="info-cell"><div class="k">Language</div><div class="v">C#</div></div>
+      <div class="info-cell"><div class="k">Platform</div><div class="v">PC</div></div>
+      <div class="info-cell"><div class="k">Development Time</div><div class="v">2 Months</div></div>
+      <div class="info-cell"><div class="k">Team Size</div><div class="v">4 Developers</div></div>
+    </div>
+    <div class="banner"><img src="images/Pest_Invation_Portada.png" alt="Pest Invasion title art"></div>
+  </div>
+</header>
+
+<div class="wrap project-body">
+  <div>
+    <div class="content-block">
+      <h2>Overview</h2>
+      <p>Pest Invasion is a 2D platformer developed as a university project. Players take control of Ricky, the son of a candy factory owner, who accidentally shrinks himself while creating an experimental insecticide capable of eliminating any insect.</p>
+      <p>Now reduced to the size of the invading pests, Ricky must fight through swarms of ants, cockroaches, bees, and other insects while searching for a way to restore his original size.</p>
+      <p>The project combined classic platforming mechanics with enemy behaviors designed to create increasingly dynamic gameplay encounters.</p>
+    </div>
+
+    <div class="content-block">
+      <h2>My Role</h2>
+      <p class="role-line">Gameplay Programmer, Game Designer</p>
+    </div>
+
+    <div class="content-block">
+      <h2>Key Contributions</h2>
+      <p>During development, I focused on implementing enemy behavior systems and gameplay interactions. My main responsibilities included:</p>
+      <ul class="contrib-list">
+        <li>Designed and programmed enemy behaviors.</li>
+        <li>Implemented enemy patrol systems.</li>
+        <li>Developed sinusoidal movement patterns using mathematical functions to create more dynamic enemy movement.</li>
+        <li>Programmed interactive environmental objects used throughout the levels.</li>
+        <li>Collaborated on gameplay balancing and enemy placement to support the overall level design.</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <h2>Design Decisions</h2>
+      <p>Instead of giving every enemy the same movement pattern, we introduced different behaviors to encourage players to adapt their strategy.</p>
+      <p>Simple patrols provided predictable obstacles, while sinusoidal movement created less predictable enemies that increased the challenge without requiring complex AI systems. This approach allowed us to create gameplay variety using relatively simple mathematical concepts.</p>
+    </div>
+
+    <div class="content-block">
+      <h2>Technical Challenges</h2>
+      <p>One of the project's biggest challenges was intentionally minimizing the use of Unity's built-in components. Rather than relying on existing engine solutions whenever possible, I challenged myself to build gameplay systems through custom C# scripts. This approach required a deeper understanding of both Unity and the mathematical principles behind character movement.</p>
+      <p>Implementing sinusoidal enemy movement also strengthened my ability to translate mathematical formulas into gameplay mechanics.</p>
+    </div>
+
+    <div class="content-block">
+      <h2>Technical Highlights</h2>
+      <ul class="contrib-list">
+        <li>Implemented custom enemy AI behaviors through C# scripting.</li>
+        <li>Developed patrol systems for autonomous enemy movement.</li>
+        <li>Applied trigonometric functions to create smooth sinusoidal movement patterns.</li>
+        <li>Built custom gameplay logic instead of relying exclusively on Unity's built-in components.</li>
+        <li>Strengthened understanding of mathematics as a foundation for gameplay programming.</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <h2>QA Perspective</h2>
+      <p>Developing enemy behavior systems demonstrated how small logic changes could significantly affect gameplay difficulty and player experience. It reinforced the importance of testing movement patterns, collision behavior, and gameplay consistency across different enemy types — an analytical mindset that translates directly to technical QA and gameplay validation.</p>
+    </div>
+
+    <div class="content-block">
+      <h2>What I Learned</h2>
+      <p>This project significantly strengthened my programming fundamentals. More importantly, it helped me understand that mathematics is not just an academic subject but an essential tool for creating engaging gameplay systems.</p>
+      <p>Building my own gameplay components instead of depending solely on engine features also gave me greater confidence when designing reusable and maintainable systems.</p>
+    </div>
+
+    <div class="content-block">
+      <h2>Project Reflection</h2>
+      <blockquote class="reflection">This project changed the way I approached gameplay programming. Instead of asking what Unity could do for me, I started asking how I could build the system myself. That shift in mindset helped me better understand both programming and game mechanics.</blockquote>
+    </div>
+  </div>
+
+  <aside class="sidebar-card">
+    <h3>Tools &amp; Technologies</h3>
+    <div>
+      <span class="pill">Unity</span>
+      <span class="pill">C#</span>
+      <span class="pill">GitHub</span>
+      <span class="pill">Visual Studio Code</span>
+      <span class="pill">Trigonometry</span>
+    </div>
+  </aside>
+</div>
+
+<section class="gallery wrap">
+  <h2>Gallery</h2>
+  <div class="gallery-grid">
+    <img src="images/Pest_Invation_Game.png" alt="Pest Invasion gameplay screenshot" loading="lazy">
+    <img src="images/Pest_Invation_Game2.png" alt="Pest Invasion gameplay screenshot 2" loading="lazy">
+  </div>
+</section>
+
+<nav class="project-footer-nav">
+  <div class="wrap">
+    <a href="coyaslug.html" class="back-link">← Coya Slug</a>
+    <a href="index.html" class="next-project">Back to<strong>Home →</strong></a>
+  </div>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
