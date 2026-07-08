@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mauro Albarracín — QA Tester &amp; Game Developer</title>
-<meta name="description" content="Portfolio of Mauro Albarracín, QA Tester and Game Developer/Designer.">
+<title data-i18n-title="meta.title">Mauro Albarracín — QA Tester &amp; Game Developer</title>
+<meta name="description" content="Portfolio of Mauro Albarracín, QA Tester and Game Developer/Designer." data-i18n-content="meta.description">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,42 +13,46 @@
   <div class="wrap">
     <a href="index.html" class="brand">MAURO<span>.</span>ALBARRACÍN</a>
     <ul class="nav-links">
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+      <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+      <li><a href="#about" data-i18n="nav.about">About</a></li>
+      <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
     </ul>
+    <div class="lang-switch" role="group" aria-label="Language selector">
+      <button type="button" class="lang-btn" data-lang="es">ES</button>
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
+    </div>
   </div>
 </nav>
 
 <header class="hero">
   <div class="wrap">
-    <p class="eyebrow">QA Tester &amp; Game Developer</p>
-    <h1 id="typed-heading"><span class="type-line" data-text="Testing, designing, and building"></span><br><span class="type-line" data-text="playable experiences."></span><span class="cursor">&nbsp;</span></h1>
-    <p class="lead">QA Tester with a background in Game Development and Game Design. I approach games from both the developer's and the player's perspective — combining gameplay programming, design, and quality assurance.</p>
+    <p class="eyebrow" data-i18n="hero.eyebrow">QA Tester &amp; Game Developer</p>
+    <h1 id="typed-heading"><span class="type-line" data-i18n-datatext="hero.line1" data-text="Testing, designing, and building"></span><br><span class="type-line" data-i18n-datatext="hero.line2" data-text="playable experiences."></span><span class="cursor">&nbsp;</span></h1>
+    <p class="lead" data-i18n="hero.lead">QA Tester with a background in Game Development and Game Design. I approach games from both the developer's and the player's perspective — combining gameplay programming, design, and quality assurance.</p>
     <div class="actions">
-      <a href="#projects" class="btn btn-primary">View projects</a>
-      <a href="#contact" class="btn btn-ghost">Contact</a>
+      <a href="#projects" class="btn btn-primary" data-i18n="hero.viewProjects">View projects</a>
+      <a href="#contact" class="btn btn-ghost" data-i18n="nav.contact">Contact</a>
     </div>
   </div>
 </header>
 
 <section class="section" id="projects">
   <div class="wrap">
-    <h2>Featured Projects</h2>
+    <h2 data-i18n="projects.heading">Featured Projects</h2>
     <div class="project-grid">
 
       <a class="project-card" href="ay-chanda.html" style="--accent-color:#8b5cf6">
         <div class="thumb"><img src="images/AyChancla_Portada.png" alt="Ay Chanda! cover art" loading="lazy"></div>
         <div class="body">
           <div class="tag-row">
-            <span class="pill">Unity · Mobile</span>
-            <span class="pill">Final Project</span>
+            <span class="pill" data-i18n="projects.aychanda.tag1">Unity · Mobile</span>
+            <span class="pill" data-i18n="projects.aychanda.tag2">Final Project</span>
           </div>
           <h3>Ay Chanda!</h3>
-          <p class="desc">Mobile endless runner built as a university final project with an 8-person team under Agile workflow.</p>
-          <p class="role" style="color:#8b5cf6">Gameplay &amp; UI Programmer</p>
-          <p class="go">View full case study →</p>
+          <p class="desc" data-i18n="projects.aychanda.desc">Mobile endless runner built as a university final project with an 8-person team under Agile workflow.</p>
+          <p class="role" style="color:#8b5cf6" data-i18n="projects.aychanda.role">Gameplay &amp; UI Programmer</p>
+          <p class="go" data-i18n="common.viewCaseStudy">View full case study →</p>
         </div>
       </a>
 
@@ -56,13 +60,13 @@
         <div class="thumb"><img src="images/PurifyinBubble_Portada.png" alt="PurifyingBubble cover art" loading="lazy"></div>
         <div class="body">
           <div class="tag-row">
-            <span class="pill">Unity</span>
-            <span class="pill">Game Jam · 7 Days</span>
+            <span class="pill" data-i18n="projects.purifyingbubble.tag1">Unity</span>
+            <span class="pill" data-i18n="projects.purifyingbubble.tag2">Game Jam · 7 Days</span>
           </div>
           <h3>PurifyingBubble</h3>
-          <p class="desc">Physics puzzle where the player rotates the world to guide a bubble across a desert, avoiding thorns.</p>
-          <p class="role" style="color:#22d3ee">Game/Level Designer &amp; Programmer</p>
-          <p class="go">View full case study →</p>
+          <p class="desc" data-i18n="projects.purifyingbubble.desc">Physics puzzle where the player rotates the world to guide a bubble across a desert, avoiding thorns.</p>
+          <p class="role" style="color:#22d3ee" data-i18n="projects.purifyingbubble.role">Game/Level Designer &amp; Programmer</p>
+          <p class="go" data-i18n="common.viewCaseStudy">View full case study →</p>
         </div>
       </a>
 
@@ -70,13 +74,13 @@
         <div class="thumb"><img src="images/GasHero_Logo.png" alt="GasHero title screen" loading="lazy"></div>
         <div class="body">
           <div class="tag-row">
-            <span class="pill">Unity</span>
-            <span class="pill">Game Jam · 3 Days</span>
+            <span class="pill" data-i18n="projects.gashero.tag1">Unity</span>
+            <span class="pill" data-i18n="projects.gashero.tag2">Game Jam · 3 Days</span>
           </div>
           <h3>GasHero</h3>
-          <p class="desc">A humorous platformer: an absurd superhero fights pollution... by polluting. Dash, UI, and Factory pattern.</p>
-          <p class="role" style="color:#f59e0b">Gameplay &amp; UI Programmer</p>
-          <p class="go">View full case study →</p>
+          <p class="desc" data-i18n="projects.gashero.desc">A humorous platformer: an absurd superhero fights pollution... by polluting. Dash, UI, and Factory pattern.</p>
+          <p class="role" style="color:#f59e0b" data-i18n="projects.gashero.role">Gameplay &amp; UI Programmer</p>
+          <p class="go" data-i18n="common.viewCaseStudy">View full case study →</p>
         </div>
       </a>
 
@@ -84,13 +88,13 @@
         <div class="thumb"><img src="images/CoyaSlug_Portada.png" alt="Coya Slug cover art" loading="lazy"></div>
         <div class="body">
           <div class="tag-row">
-            <span class="pill">Construct 3</span>
-            <span class="pill">University Project</span>
+            <span class="pill" data-i18n="projects.coyaslug.tag1">Construct 3</span>
+            <span class="pill" data-i18n="projects.coyaslug.tag2">University Project</span>
           </div>
           <h3>Coya Slug</h3>
-          <p class="desc">Retro light gun shooter: a Coya fights aliens with carnival foam, built with OOP principles and coroutines.</p>
-          <p class="role" style="color:#ec4899">Gameplay Programmer &amp; Designer</p>
-          <p class="go">View full case study →</p>
+          <p class="desc" data-i18n="projects.coyaslug.desc">Retro light gun shooter: a Coya fights aliens with carnival foam, built with OOP principles and coroutines.</p>
+          <p class="role" style="color:#ec4899" data-i18n="projects.coyaslug.role">Gameplay Programmer &amp; Designer</p>
+          <p class="go" data-i18n="common.viewCaseStudy">View full case study →</p>
         </div>
       </a>
 
@@ -98,13 +102,13 @@
         <div class="thumb"><img src="images/Pest_Invation_Portada.png" alt="Pest Invasion cover art" loading="lazy"></div>
         <div class="body">
           <div class="tag-row">
-            <span class="pill">Unity</span>
-            <span class="pill">University Project</span>
+            <span class="pill" data-i18n="projects.pestinvasion.tag1">Unity</span>
+            <span class="pill" data-i18n="projects.pestinvasion.tag2">University Project</span>
           </div>
           <h3>Pest Invasion</h3>
-          <p class="desc">2D platformer where a shrunken inventor battles a pest swarm using custom enemy behaviors and sine-wave movement.</p>
-          <p class="role" style="color:#22c55e">Gameplay Programmer &amp; Designer</p>
-          <p class="go">View full case study →</p>
+          <p class="desc" data-i18n="projects.pestinvasion.desc">2D platformer where a shrunken inventor battles a pest swarm using custom enemy behaviors and sine-wave movement.</p>
+          <p class="role" style="color:#22c55e" data-i18n="projects.pestinvasion.role">Gameplay Programmer &amp; Designer</p>
+          <p class="go" data-i18n="common.viewCaseStudy">View full case study →</p>
         </div>
       </a>
 
@@ -114,45 +118,45 @@
 
 <section class="section" id="skills">
   <div class="wrap">
-    <h2>Skills</h2>
+    <h2 data-i18n="skills.heading">Skills</h2>
 
     <div class="skill-group">
-      <h4>QA</h4>
+      <h4 data-i18n="skills.qa.title">QA</h4>
       <div class="skill-pills">
-        <span class="pill">Manual Testing</span>
-        <span class="pill">Regression Testing</span>
-        <span class="pill">Test Case Creation</span>
-        <span class="pill">Bug Reporting</span>
-        <span class="pill">Reproduction Steps</span>
-        <span class="pill">Gameplay Analysis</span>
-        <span class="pill">Feature Feedback</span>
+        <span class="pill" data-i18n="skills.qa.p1">Manual Testing</span>
+        <span class="pill" data-i18n="skills.qa.p2">Regression Testing</span>
+        <span class="pill" data-i18n="skills.qa.p3">Test Case Creation</span>
+        <span class="pill" data-i18n="skills.qa.p4">Bug Reporting</span>
+        <span class="pill" data-i18n="skills.qa.p5">Reproduction Steps</span>
+        <span class="pill" data-i18n="skills.qa.p6">Gameplay Analysis</span>
+        <span class="pill" data-i18n="skills.qa.p7">Feature Feedback</span>
       </div>
     </div>
 
     <div class="skill-group">
-      <h4>Development</h4>
+      <h4 data-i18n="skills.dev.title">Development</h4>
       <div class="skill-pills">
         <span class="pill">Unity (C#)</span>
-        <span class="pill">Gameplay Programming</span>
-        <span class="pill">UI Programming</span>
-        <span class="pill">Game Systems</span>
-        <span class="pill">Object-Oriented Programming</span>
+        <span class="pill" data-i18n="skills.dev.p2">Gameplay Programming</span>
+        <span class="pill" data-i18n="skills.dev.p3">UI Programming</span>
+        <span class="pill" data-i18n="skills.dev.p4">Game Systems</span>
+        <span class="pill" data-i18n="skills.dev.p5">Object-Oriented Programming</span>
       </div>
     </div>
 
     <div class="skill-group">
-      <h4>Design</h4>
+      <h4 data-i18n="skills.design.title">Design</h4>
       <div class="skill-pills">
-        <span class="pill">Game Design</span>
-        <span class="pill">Level Design</span>
-        <span class="pill">System Design</span>
-        <span class="pill">Game Balancing</span>
-        <span class="pill">GDD Documentation</span>
+        <span class="pill" data-i18n="skills.design.p1">Game Design</span>
+        <span class="pill" data-i18n="skills.design.p2">Level Design</span>
+        <span class="pill" data-i18n="skills.design.p3">System Design</span>
+        <span class="pill" data-i18n="skills.design.p4">Game Balancing</span>
+        <span class="pill" data-i18n="skills.design.p5">GDD Documentation</span>
       </div>
     </div>
 
     <div class="skill-group">
-      <h4>Tools</h4>
+      <h4 data-i18n="skills.tools.title">Tools</h4>
       <div class="skill-pills">
         <span class="pill">Jira</span>
         <span class="pill">ClickUp</span>
@@ -169,16 +173,16 @@
 <section class="about" id="about">
   <div class="wrap">
     <div>
-      <h2>About Me</h2>
-      <p>I'm a QA Tester with a background in Game Development and Game Design, allowing me to approach games from both a developer's and a player's perspective.</p>
-      <p>I graduated as a Technician in Comprehensive Video Game Design from the Universidad Nacional de Jujuy, where I worked on multiple collaborative game projects using Unity and C#.</p>
-      <p>Throughout my projects, I have taken responsibilities ranging from gameplay programming and game design to level design and quality assurance. This experience has helped me understand the complete game development pipeline, communicate effectively with multidisciplinary teams, and identify issues beyond simple bug reporting.</p>
-      <p>As a QA professional, I enjoy analyzing gameplay systems, reproducing issues, documenting bugs clearly, and providing actionable feedback that improves the overall player experience. I'm always eager to learn new technologies, collaborate with developers, and contribute to building polished, enjoyable games.</p>
+      <h2 data-i18n="about.heading">About Me</h2>
+      <p data-i18n="about.p1">I'm a QA Tester with a background in Game Development and Game Design, allowing me to approach games from both a developer's and a player's perspective.</p>
+      <p data-i18n="about.p2">I graduated as a Technician in Comprehensive Video Game Design from the Universidad Nacional de Jujuy, where I worked on multiple collaborative game projects using Unity and C#.</p>
+      <p data-i18n="about.p3">Throughout my projects, I have taken responsibilities ranging from gameplay programming and game design to level design and quality assurance. This experience has helped me understand the complete game development pipeline, communicate effectively with multidisciplinary teams, and identify issues beyond simple bug reporting.</p>
+      <p data-i18n="about.p4">As a QA professional, I enjoy analyzing gameplay systems, reproducing issues, documenting bugs clearly, and providing actionable feedback that improves the overall player experience. I'm always eager to learn new technologies, collaborate with developers, and contribute to building polished, enjoyable games.</p>
     </div>
     <div class="stat-list">
-      <div class="stat"><div class="num">5</div><div class="label">Shipped projects</div></div>
-      <div class="stat"><div class="num">QA</div><div class="label">+ Dev + Design</div></div>
-      <div class="stat"><div class="num">2</div><div class="label">Engines (Unity, Construct 3)</div></div>
+      <div class="stat"><div class="num">5</div><div class="label" data-i18n="about.stat1">Shipped projects</div></div>
+      <div class="stat"><div class="num">QA</div><div class="label" data-i18n="about.stat2">+ Dev + Design</div></div>
+      <div class="stat"><div class="num">2</div><div class="label" data-i18n="about.stat3">Engines (Unity, Construct 3)</div></div>
     </div>
   </div>
 </section>
@@ -190,11 +194,12 @@
       <a href="#">LinkedIn</a>
       <a href="#">Itch.io</a>
       <a href="#">GitHub</a>
-      <a href="mailto:mauro.tupac@gmail.com">Email</a>
+      <a href="mailto:mauro.tupac@gmail.com" data-i18n="common.email">Email</a>
     </div>
   </div>
 </footer>
 
+<script src="i18n.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

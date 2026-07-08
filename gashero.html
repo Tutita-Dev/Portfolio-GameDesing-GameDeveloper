@@ -10,22 +10,26 @@
 
 <nav class="site-nav">
   <div class="wrap">
-    <a href="index.html" class="back-link">← Back to home</a>
+    <a href="index.html" class="back-link" data-i18n="common.backHome">← Back to home</a>
     <span class="brand" style="font-size:0.78rem;">MAURO ALBARRACÍN</span>
+    <div class="lang-switch" role="group" aria-label="Language selector">
+      <button type="button" class="lang-btn" data-lang="es">ES</button>
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
+    </div>
   </div>
 </nav>
 
 <header class="project-header">
   <div class="wrap">
-    <span class="pill">2D Platformer · Game Jam</span>
+    <span class="pill" data-i18n="gashero.tag">2D Platformer · Game Jam</span>
     <h1>GasHero</h1>
-    <p style="color:var(--muted); font-size:1.02rem; max-width:640px; margin-bottom:28px;">A humorous platformer where an absurd superhero fights pollution using the very thing that creates it, turning a ridiculous premise into a fun and complete gameplay experience.</p>
+    <p style="color:var(--muted); font-size:1.02rem; max-width:640px; margin-bottom:28px;" data-i18n="gashero.intro">A humorous platformer where an absurd superhero fights pollution using the very thing that creates it, turning a ridiculous premise into a fun and complete gameplay experience.</p>
     <div class="info-strip">
-      <div class="info-cell"><div class="k">Engine</div><div class="v">Unity</div></div>
-      <div class="info-cell"><div class="k">Language</div><div class="v">C#</div></div>
-      <div class="info-cell"><div class="k">Platform</div><div class="v">PC</div></div>
-      <div class="info-cell"><div class="k">Development Time</div><div class="v">3 Days</div></div>
-      <div class="info-cell"><div class="k">Team Size</div><div class="v">3 Developers</div></div>
+      <div class="info-cell"><div class="k" data-i18n="common.engine">Engine</div><div class="v">Unity</div></div>
+      <div class="info-cell"><div class="k" data-i18n="common.language">Language</div><div class="v">C#</div></div>
+      <div class="info-cell"><div class="k" data-i18n="common.platform">Platform</div><div class="v">PC</div></div>
+      <div class="info-cell"><div class="k" data-i18n="common.devTime">Development Time</div><div class="v" data-i18n="gashero.devTime">3 Days</div></div>
+      <div class="info-cell"><div class="k" data-i18n="common.teamSize">Team Size</div><div class="v" data-i18n="gashero.teamSize">3 Developers</div></div>
     </div>
     <div class="banner"><img src="images/GasHero_Logo.png" alt="GasHero title screen"></div>
   </div>
@@ -34,59 +38,59 @@
 <div class="wrap project-body">
   <div>
     <div class="content-block">
-      <h2>Overview</h2>
-      <p>GasHero was developed during a 3-day Game Jam, where the challenge was to create a complete game around a specific theme within a very limited timeframe.</p>
-      <p>The game follows an intentionally absurd superhero whose power is... contaminating the environment by farting. Ironically, his mission is to protect nature and fight pollution. Rather than avoiding the absurdity, the team embraced it, creating a lighthearted experience centered around humor and simple yet engaging gameplay.</p>
+      <h2 data-i18n="common.overview">Overview</h2>
+      <p data-i18n="gashero.overview.p1">GasHero was developed during a 3-day Game Jam, where the challenge was to create a complete game around a specific theme within a very limited timeframe.</p>
+      <p data-i18n="gashero.overview.p2">The game follows an intentionally absurd superhero whose power is... contaminating the environment by farting. Ironically, his mission is to protect nature and fight pollution. Rather than avoiding the absurdity, the team embraced it, creating a lighthearted experience centered around humor and simple yet engaging gameplay.</p>
     </div>
 
     <div class="content-block">
-      <h2>My Role</h2>
-      <p class="role-line">Gameplay Programmer, UI Programmer</p>
+      <h2 data-i18n="common.myRole">My Role</h2>
+      <p class="role-line" data-i18n="gashero.role">Gameplay Programmer, UI Programmer</p>
     </div>
 
     <div class="content-block">
-      <h2>Key Contributions</h2>
-      <p>During development, I focused on implementing the player's core mechanics and user interface behavior. My main contributions included:</p>
+      <h2 data-i18n="common.keyContributions">Key Contributions</h2>
+      <p data-i18n="gashero.contrib.intro">During development, I focused on implementing the player's core mechanics and user interface behavior. My main contributions included:</p>
       <ul class="contrib-list">
-        <li>Designed and implemented the player's lateral movement system.</li>
-        <li>Developed a responsive dash mechanic to enhance mobility and gameplay flow.</li>
-        <li>Programmed the user interface interactions and screen responses.</li>
-        <li>Implemented the Factory Design Pattern to create game objects without directly depending on their concrete classes, improving code organization and scalability.</li>
-        <li>Collaborated on gameplay iteration to ensure the mechanics supported the game's humorous concept.</li>
+        <li data-i18n="gashero.contrib.i1">Designed and implemented the player's lateral movement system.</li>
+        <li data-i18n="gashero.contrib.i2">Developed a responsive dash mechanic to enhance mobility and gameplay flow.</li>
+        <li data-i18n="gashero.contrib.i3">Programmed the user interface interactions and screen responses.</li>
+        <li data-i18n="gashero.contrib.i4">Implemented the Factory Design Pattern to create game objects without directly depending on their concrete classes, improving code organization and scalability.</li>
+        <li data-i18n="gashero.contrib.i5">Collaborated on gameplay iteration to ensure the mechanics supported the game's humorous concept.</li>
       </ul>
     </div>
 
     <div class="content-block">
-      <h2>Design Decisions</h2>
-      <p>Rather than trying to justify the game's absurd premise, we decided to fully embrace it. The contrast between a superhero who pollutes while trying to save the environment became the game's defining feature. This allowed us to focus on creating mechanics that supported the joke while still delivering a coherent and enjoyable gameplay experience.</p>
-      <p>The movement system was intentionally kept simple and responsive so players could immediately engage with the game's core idea without unnecessary complexity.</p>
+      <h2 data-i18n="common.designDecisions">Design Decisions</h2>
+      <p data-i18n="gashero.design.p1">Rather than trying to justify the game's absurd premise, we decided to fully embrace it. The contrast between a superhero who pollutes while trying to save the environment became the game's defining feature. This allowed us to focus on creating mechanics that supported the joke while still delivering a coherent and enjoyable gameplay experience.</p>
+      <p data-i18n="gashero.design.p2">The movement system was intentionally kept simple and responsive so players could immediately engage with the game's core idea without unnecessary complexity.</p>
     </div>
 
     <div class="content-block">
-      <h2>Technical Challenges</h2>
-      <p>One of the biggest challenges was adapting the Game Jam theme into a gameplay concept that was both original and achievable within only three days. Balancing creativity with the available development time required constant prioritization, ensuring that every implemented feature contributed directly to the core experience.</p>
-      <p>Additionally, implementing the Factory Design Pattern within such a short development cycle provided valuable experience applying software engineering principles in a real project.</p>
+      <h2 data-i18n="common.techChallenges">Technical Challenges</h2>
+      <p data-i18n="gashero.challenges.p1">One of the biggest challenges was adapting the Game Jam theme into a gameplay concept that was both original and achievable within only three days. Balancing creativity with the available development time required constant prioritization, ensuring that every implemented feature contributed directly to the core experience.</p>
+      <p data-i18n="gashero.challenges.p2">Additionally, implementing the Factory Design Pattern within such a short development cycle provided valuable experience applying software engineering principles in a real project.</p>
     </div>
 
     <div class="content-block">
-      <h2>QA Perspective</h2>
-      <p>Developing the player's movement systems highlighted the importance of testing gameplay responsiveness after every iteration. Even small adjustments to movement speed or dash timing significantly affected the player's experience, reinforcing the value of continuous playtesting and rapid validation during development.</p>
+      <h2 data-i18n="common.qaPerspective">QA Perspective</h2>
+      <p data-i18n="gashero.qa.p1">Developing the player's movement systems highlighted the importance of testing gameplay responsiveness after every iteration. Even small adjustments to movement speed or dash timing significantly affected the player's experience, reinforcing the value of continuous playtesting and rapid validation during development.</p>
     </div>
 
     <div class="content-block">
-      <h2>What I Learned</h2>
-      <p>This project taught me that the first idea is not always the wrong one simply because it sounds absurd. Instead of searching for the "perfect" concept, committing to a simple and fun idea allowed the team to spend more time polishing gameplay and creating a more enjoyable experience.</p>
-      <p>I also gained practical experience applying object-oriented design principles through the implementation of the Factory Design Pattern in Unity.</p>
+      <h2 data-i18n="common.whatLearned">What I Learned</h2>
+      <p data-i18n="gashero.learned.p1">This project taught me that the first idea is not always the wrong one simply because it sounds absurd. Instead of searching for the "perfect" concept, committing to a simple and fun idea allowed the team to spend more time polishing gameplay and creating a more enjoyable experience.</p>
+      <p data-i18n="gashero.learned.p2">I also gained practical experience applying object-oriented design principles through the implementation of the Factory Design Pattern in Unity.</p>
     </div>
 
     <div class="content-block">
-      <h2>Project Reflection</h2>
-      <blockquote class="reflection">One of the most valuable lessons from this project was learning that execution matters more than perfection. A simple idea, developed with focus and confidence, can become a memorable experience when the team commits to making it fun.</blockquote>
+      <h2 data-i18n="gashero.reflection.title">Project Reflection</h2>
+      <blockquote class="reflection" data-i18n="gashero.reflection.quote">One of the most valuable lessons from this project was learning that execution matters more than perfection. A simple idea, developed with focus and confidence, can become a memorable experience when the team commits to making it fun.</blockquote>
     </div>
   </div>
 
   <aside class="sidebar-card">
-    <h3>Tools &amp; Technologies</h3>
+    <h3 data-i18n="common.toolsTech">Tools &amp; Technologies</h3>
     <div>
       <span class="pill">Unity</span>
       <span class="pill">C#</span>
@@ -97,7 +101,7 @@
 </div>
 
 <section class="gallery wrap">
-  <h2>Gallery</h2>
+  <h2 data-i18n="common.gallery">Gallery</h2>
   <div class="gallery-grid">
     <img src="images/GasHero_Menu.png" alt="GasHero menu screen" loading="lazy">
     <img src="images/GasHero_Game.png" alt="GasHero gameplay screenshot" loading="lazy">
@@ -109,10 +113,11 @@
 <nav class="project-footer-nav">
   <div class="wrap">
     <a href="purifyingbubble.html" class="back-link">← PurifyingBubble</a>
-    <a href="coyaslug.html" class="next-project">Next project<strong>Coya Slug →</strong></a>
+    <a href="coyaslug.html" class="next-project"><span data-i18n="common.nextProject">Next project</span><strong>Coya Slug →</strong></a>
   </div>
 </nav>
 
+<script src="i18n.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

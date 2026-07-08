@@ -122,6 +122,35 @@ button:focus-visible {
   .nav-links { display: none; }
 }
 
+/* ---------- Language switch ---------- */
+.lang-switch {
+  display: flex;
+  gap: 2px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 3px;
+  flex-shrink: 0;
+}
+.lang-btn {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  padding: 5px 11px;
+  border-radius: 999px;
+  color: var(--muted);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.lang-btn:hover { color: var(--text); }
+.lang-btn.is-active {
+  background: var(--accent2);
+  color: var(--bg);
+  font-weight: 600;
+}
+
 /* ---------- Buttons ---------- */
 .btn {
   display: inline-flex;

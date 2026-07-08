@@ -10,22 +10,26 @@
 
 <nav class="site-nav">
   <div class="wrap">
-    <a href="index.html" class="back-link">← Back to home</a>
+    <a href="index.html" class="back-link" data-i18n="common.backHome">← Back to home</a>
     <span class="brand" style="font-size:0.78rem;">MAURO ALBARRACÍN</span>
+    <div class="lang-switch" role="group" aria-label="Language selector">
+      <button type="button" class="lang-btn" data-lang="es">ES</button>
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
+    </div>
   </div>
 </nav>
 
 <header class="project-header">
   <div class="wrap">
-    <span class="pill">Light Gun Shooter · University Project</span>
+    <span class="pill" data-i18n="coyaslug.tag">Light Gun Shooter · University Project</span>
     <h1>Coya Slug</h1>
-    <p style="color:var(--muted); font-size:1.02rem; max-width:640px; margin-bottom:28px;">A retro-inspired light gun shooter where a Coya fights invading aliens using Rey Momo carnival foam as an unconventional weapon while escaping an alien spaceship.</p>
+    <p style="color:var(--muted); font-size:1.02rem; max-width:640px; margin-bottom:28px;" data-i18n="coyaslug.intro">A retro-inspired light gun shooter where a Coya fights invading aliens using Rey Momo carnival foam as an unconventional weapon while escaping an alien spaceship.</p>
     <div class="info-strip">
-      <div class="info-cell"><div class="k">Engine</div><div class="v">Construct 3</div></div>
-      <div class="info-cell"><div class="k">Language</div><div class="v">Event-Based Visual Scripting</div></div>
-      <div class="info-cell"><div class="k">Platform</div><div class="v">PC</div></div>
-      <div class="info-cell"><div class="k">Development Time</div><div class="v">2 Months</div></div>
-      <div class="info-cell"><div class="k">Team Size</div><div class="v">6 Developers</div></div>
+      <div class="info-cell"><div class="k" data-i18n="common.engine">Engine</div><div class="v">Construct 3</div></div>
+      <div class="info-cell"><div class="k" data-i18n="common.language">Language</div><div class="v" data-i18n="coyaslug.langValue">Event-Based Visual Scripting</div></div>
+      <div class="info-cell"><div class="k" data-i18n="common.platform">Platform</div><div class="v">PC</div></div>
+      <div class="info-cell"><div class="k" data-i18n="common.devTime">Development Time</div><div class="v" data-i18n="coyaslug.devTime">2 Months</div></div>
+      <div class="info-cell"><div class="k" data-i18n="common.teamSize">Team Size</div><div class="v" data-i18n="coyaslug.teamSize">6 Developers</div></div>
     </div>
     <div class="banner"><img src="images/CoyaSlug_Portada.png" alt="Coya Slug title art"></div>
   </div>
@@ -34,76 +38,76 @@
 <div class="wrap project-body">
   <div>
     <div class="content-block">
-      <h2>Overview</h2>
-      <p>Coya Slug is a university project inspired by classic arcade light gun shooters and retro action games.</p>
-      <p>The game follows a Coya who is abducted by aliens after attending the local carnival. While searching for a way to escape the spaceship, he discovers that the artificial carnival foam Rey Momo damages the aliens, turning an everyday carnival item into his primary weapon.</p>
-      <p>The project combined humorous local cultural references with retro gameplay mechanics to create a fast-paced arcade experience.</p>
+      <h2 data-i18n="common.overview">Overview</h2>
+      <p data-i18n="coyaslug.overview.p1">Coya Slug is a university project inspired by classic arcade light gun shooters and retro action games.</p>
+      <p data-i18n="coyaslug.overview.p2">The game follows a Coya who is abducted by aliens after attending the local carnival. While searching for a way to escape the spaceship, he discovers that the artificial carnival foam Rey Momo damages the aliens, turning an everyday carnival item into his primary weapon.</p>
+      <p data-i18n="coyaslug.overview.p3">The project combined humorous local cultural references with retro gameplay mechanics to create a fast-paced arcade experience.</p>
     </div>
 
     <div class="content-block">
-      <h2>My Role</h2>
-      <p class="role-line">Gameplay Programmer, Game Designer</p>
+      <h2 data-i18n="common.myRole">My Role</h2>
+      <p class="role-line" data-i18n="coyaslug.role">Gameplay Programmer, Game Designer</p>
     </div>
 
     <div class="content-block">
-      <h2>Key Contributions</h2>
-      <p>Throughout the project I collaborated on both gameplay programming and game design, helping define the player's experience. My main contributions included:</p>
+      <h2 data-i18n="common.keyContributions">Key Contributions</h2>
+      <p data-i18n="coyaslug.contrib.intro">Throughout the project I collaborated on both gameplay programming and game design, helping define the player's experience. My main contributions included:</p>
       <ul class="contrib-list">
-        <li>Developed core gameplay mechanics using Construct 3.</li>
-        <li>Designed gameplay systems following Object-Oriented Programming (OOP) principles.</li>
-        <li>Implemented gameplay interactions using physics-based behaviors.</li>
-        <li>Collaborated on balancing gameplay and enemy encounters to create a satisfying arcade experience.</li>
+        <li data-i18n="coyaslug.contrib.i1">Developed core gameplay mechanics using Construct 3.</li>
+        <li data-i18n="coyaslug.contrib.i2">Designed gameplay systems following Object-Oriented Programming (OOP) principles.</li>
+        <li data-i18n="coyaslug.contrib.i3">Implemented gameplay interactions using physics-based behaviors.</li>
+        <li data-i18n="coyaslug.contrib.i4">Collaborated on balancing gameplay and enemy encounters to create a satisfying arcade experience.</li>
       </ul>
     </div>
 
     <div class="content-block">
-      <h2>Design Decisions</h2>
-      <p>Rather than creating a conventional sci-fi shooter, the team decided to combine a recognizable retro gameplay style with elements of Argentine culture.</p>
-      <p>Using Rey Momo carnival foam as the player's weapon created an unexpected contrast that reinforced the game's humorous identity while supporting the core gameplay loop.</p>
-      <p>The retro-inspired visual style also complemented this approach, making the experience feel familiar while giving it its own personality.</p>
+      <h2 data-i18n="common.designDecisions">Design Decisions</h2>
+      <p data-i18n="coyaslug.design.p1">Rather than creating a conventional sci-fi shooter, the team decided to combine a recognizable retro gameplay style with elements of Argentine culture.</p>
+      <p data-i18n="coyaslug.design.p2">Using Rey Momo carnival foam as the player's weapon created an unexpected contrast that reinforced the game's humorous identity while supporting the core gameplay loop.</p>
+      <p data-i18n="coyaslug.design.p3">The retro-inspired visual style also complemented this approach, making the experience feel familiar while giving it its own personality.</p>
     </div>
 
     <div class="content-block">
-      <h2>Technical Challenges</h2>
-      <p>One of the biggest challenges was adapting recently acquired programming knowledge to a new development environment.</p>
-      <p>Unlike Unity, where many systems are readily available, Construct 3 required us to build much of the game's behavior ourselves through event systems and custom logic. This forced me to think more carefully about gameplay architecture and how different systems interacted with one another.</p>
+      <h2 data-i18n="common.techChallenges">Technical Challenges</h2>
+      <p data-i18n="coyaslug.challenges.p1">One of the biggest challenges was adapting recently acquired programming knowledge to a new development environment.</p>
+      <p data-i18n="coyaslug.challenges.p2">Unlike Unity, where many systems are readily available, Construct 3 required us to build much of the game's behavior ourselves through event systems and custom logic. This forced me to think more carefully about gameplay architecture and how different systems interacted with one another.</p>
     </div>
 
     <div class="content-block">
-      <h2>Technical Highlights</h2>
+      <h2 data-i18n="coyaslug.highlights.title">Technical Highlights</h2>
       <ul class="contrib-list">
-        <li>Applied Object-Oriented Programming principles to structure gameplay systems.</li>
-        <li>Worked extensively with physics-based interactions to support arcade gameplay.</li>
-        <li>Developed gameplay logic within Construct 3's event system, strengthening my understanding of system design beyond engine-specific tools.</li>
+        <li data-i18n="coyaslug.highlights.i1">Applied Object-Oriented Programming principles to structure gameplay systems.</li>
+        <li data-i18n="coyaslug.highlights.i2">Worked extensively with physics-based interactions to support arcade gameplay.</li>
+        <li data-i18n="coyaslug.highlights.i3">Developed gameplay logic within Construct 3's event system, strengthening my understanding of system design beyond engine-specific tools.</li>
       </ul>
     </div>
 
     <div class="content-block">
-      <h2>QA Perspective</h2>
-      <p>Creating gameplay systems from scratch helped me understand how seemingly small implementation details can produce unexpected behaviors. This experience improved my ability to analyze gameplay logic, isolate issues, and understand how different systems interact — skills that are directly applicable to technical QA and debugging.</p>
+      <h2 data-i18n="common.qaPerspective">QA Perspective</h2>
+      <p data-i18n="coyaslug.qa.p1">Creating gameplay systems from scratch helped me understand how seemingly small implementation details can produce unexpected behaviors. This experience improved my ability to analyze gameplay logic, isolate issues, and understand how different systems interact — skills that are directly applicable to technical QA and debugging.</p>
     </div>
 
     <div class="content-block">
-      <h2>What I Learned</h2>
-      <p>This project became one of the foundations of my programming journey. Beyond implementing gameplay mechanics, I gained a much deeper appreciation for the importance of Object-Oriented Programming, mathematics, and structured problem-solving when developing games.</p>
-      <p>Many of the concepts I first encountered during this project continue to influence how I approach gameplay programming today.</p>
+      <h2 data-i18n="common.whatLearned">What I Learned</h2>
+      <p data-i18n="coyaslug.learned.p1">This project became one of the foundations of my programming journey. Beyond implementing gameplay mechanics, I gained a much deeper appreciation for the importance of Object-Oriented Programming, mathematics, and structured problem-solving when developing games.</p>
+      <p data-i18n="coyaslug.learned.p2">Many of the concepts I first encountered during this project continue to influence how I approach gameplay programming today.</p>
     </div>
   </div>
 
   <aside class="sidebar-card">
-    <h3>Technologies &amp; Concepts</h3>
+    <h3 data-i18n="coyaslug.sidebarTitle">Technologies &amp; Concepts</h3>
     <div>
       <span class="pill">Construct 3</span>
       <span class="pill">OOP</span>
-      <span class="pill">Physics</span>
-      <span class="pill">Retro Game Design</span>
-      <span class="pill">Arcade Mechanics</span>
+      <span class="pill" data-i18n="coyaslug.pillPhysics">Physics</span>
+      <span class="pill" data-i18n="coyaslug.pillRetro">Retro Game Design</span>
+      <span class="pill" data-i18n="coyaslug.pillArcade">Arcade Mechanics</span>
     </div>
   </aside>
 </div>
 
 <section class="gallery wrap">
-  <h2>Gallery</h2>
+  <h2 data-i18n="common.gallery">Gallery</h2>
   <div class="gallery-grid">
     <img src="images/CoyaSlug_Game.png" alt="Coya Slug gameplay screenshot" loading="lazy">
     <img src="images/CoyaSlug_Game2.png" alt="Coya Slug gameplay screenshot 2" loading="lazy">
@@ -113,10 +117,11 @@
 <nav class="project-footer-nav">
   <div class="wrap">
     <a href="gashero.html" class="back-link">← GasHero</a>
-    <a href="pestinvasion.html" class="next-project">Next project<strong>Pest Invasion →</strong></a>
+    <a href="pestinvasion.html" class="next-project"><span data-i18n="common.nextProject">Next project</span><strong>Pest Invasion →</strong></a>
   </div>
 </nav>
 
+<script src="i18n.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
