@@ -7,8 +7,13 @@
   var i18n = {
     en: {
       meta: {
+<<<<<<< Updated upstream
         title: 'Mauro Albarracín — QA Tester &amp; Game Developer',
         description: 'Portfolio of Mauro Albarracín, QA Tester and Game Developer/Designer.'
+=======
+        title: 'Mauro Albarracín — Game Designer &amp; Developer',
+        description: 'Portfolio of Mauro Albarracín, Game Designer &amp; Developer with a QA background.'
+>>>>>>> Stashed changes
       },
       nav: { projects: 'Projects', skills: 'Skills', about: 'About', contact: 'Contact' },
       common: {
@@ -37,19 +42,34 @@
         email: 'Email'
       },
       hero: {
+<<<<<<< Updated upstream
         eyebrow: 'QA Tester &amp; Game Developer',
         line1: 'Testing, designing, and building',
         line2: 'playable experiences.',
         lead: "QA Tester with a background in Game Development and Game Design. I approach games from both the developer's and the player's perspective — combining gameplay programming, design, and quality assurance.",
+=======
+        eyebrow: 'Game Designer &amp; Developer',
+        line1: 'Designing systems, building',
+        line2: 'playable experiences.',
+        lead: 'Game Designer and Developer with a QA background. I approach games first as a designer, shaping mechanics and systems, then as a developer bringing them to life through gameplay programming — with quality assurance as the lens that keeps every detail polished.',
+>>>>>>> Stashed changes
         viewProjects: 'View projects'
       },
       projects: {
         heading: 'Featured Projects',
+<<<<<<< Updated upstream
         aychanda: { tag1: 'Unity · Mobile', tag2: 'Final Project', desc: 'Mobile endless runner built as a university final project with an 8-person team under Agile workflow.', role: 'Gameplay &amp; UI Programmer' },
         purifyingbubble: { tag1: 'Unity', tag2: 'Game Jam · 7 Days', desc: 'Physics puzzle where the player rotates the world to guide a bubble across a desert, avoiding thorns.', role: 'Game/Level Designer &amp; Programmer' },
         gashero: { tag1: 'Unity', tag2: 'Game Jam · 3 Days', desc: 'A humorous platformer: an absurd superhero fights pollution... by polluting. Dash, UI, and Factory pattern.', role: 'Gameplay &amp; UI Programmer' },
         coyaslug: { tag1: 'Construct 3', tag2: 'University Project', desc: 'Retro light gun shooter: a Coya fights aliens with carnival foam, built with OOP principles and coroutines.', role: 'Gameplay Programmer &amp; Designer' },
         pestinvasion: { tag1: 'Unity', tag2: 'University Project', desc: '2D platformer where a shrunken inventor battles a pest swarm using custom enemy behaviors and sine-wave movement.', role: 'Gameplay Programmer &amp; Designer' }
+=======
+        aychanda: { tag1: 'Unity · Mobile', tag2: 'Final Project', desc: 'Mobile endless runner built as a university final project with an 8-person team under Agile workflow.', role: 'Designer &amp; Gameplay/UI Programmer' },
+        purifyingbubble: { tag1: 'Unity', tag2: 'Game Jam · 7 Days', desc: 'Physics puzzle where the player rotates the world to guide a bubble across a desert, avoiding thorns.', role: 'Game/Level Designer &amp; Programmer' },
+        gashero: { tag1: 'Unity', tag2: 'Game Jam · 3 Days', desc: 'A humorous platformer: an absurd superhero fights pollution... by polluting. Dash, UI, and Factory pattern.', role: 'Gameplay &amp; UI Programmer' },
+        coyaslug: { tag1: 'Construct 3', tag2: 'University Project', desc: 'Retro light gun shooter: a Coya fights aliens with carnival foam, built with OOP principles and coroutines.', role: 'Designer &amp; Gameplay Programmer' },
+        pestinvasion: { tag1: 'Unity', tag2: 'University Project', desc: '2D platformer where a shrunken inventor battles a pest swarm using custom enemy behaviors and sine-wave movement.', role: 'Designer &amp; Gameplay Programmer' }
+>>>>>>> Stashed changes
       },
       skills: {
         heading: 'Skills',
@@ -60,19 +80,32 @@
       },
       about: {
         heading: 'About Me',
+<<<<<<< Updated upstream
         p1: "I'm a QA Tester with a background in Game Development and Game Design, allowing me to approach games from both a developer's and a player's perspective.",
         p2: 'I graduated as a Technician in Comprehensive Video Game Design from the Universidad Nacional de Jujuy, where I worked on multiple collaborative game projects using Unity and C#.',
         p3: 'Throughout my projects, I have taken responsibilities ranging from gameplay programming and game design to level design and quality assurance. This experience has helped me understand the complete game development pipeline, communicate effectively with multidisciplinary teams, and identify issues beyond simple bug reporting.',
         p4: "As a QA professional, I enjoy analyzing gameplay systems, reproducing issues, documenting bugs clearly, and providing actionable feedback that improves the overall player experience. I'm always eager to learn new technologies, collaborate with developers, and contribute to building polished, enjoyable games.",
         stat1: 'Shipped projects',
         stat2: '+ Dev + Design',
+=======
+        p1: "I'm a Game Designer and Developer with a QA background, which lets me approach games first as a designer shaping the player experience, then as a developer building the systems that bring it to life.",
+        p2: 'I graduated as a Technician in Comprehensive Video Game Design from the Universidad Nacional de Jujuy, where I worked on multiple collaborative game projects using Unity and C#, taking on game design and gameplay programming roles.',
+        p3: "Throughout my projects, I have led game and level design work, translated design decisions into working gameplay code, and used my QA experience to validate that mechanics actually feel right in the player's hands. This has given me a full view of the development pipeline, from concept to a polished, tested build.",
+        p4: 'I enjoy prototyping mechanics, writing GDDs, and balancing systems, then getting hands-on with gameplay programming to bring those designs to life. My QA background adds a final layer of rigor — a habit of playtesting thoroughly and catching issues before players do. I\'m always eager to learn new technologies, collaborate with multidisciplinary teams, and contribute to building polished, enjoyable games.',
+        stat1: 'Shipped projects',
+        stat2: '+ Dev + QA',
+>>>>>>> Stashed changes
         stat3: 'Engines (Unity, Construct 3)'
       },
       aychanda: {
         tag: 'Endless Runner · Mobile Game · University Final Project',
         devTime: '3 Months',
         teamSize: '8 Developers',
+<<<<<<< Updated upstream
         role: 'Gameplay Programmer, UI Programmer &amp; Designer',
+=======
+        role: 'Game Designer, Gameplay Programmer &amp; UI Programmer',
+>>>>>>> Stashed changes
         overview: {
           p1: 'Ay Chanda! is a mobile endless runner developed as the final university project for the Video Game Design program. The project was created by a multidisciplinary team over three months, following an Agile workflow to simulate a professional game development environment.',
           p2: 'Beyond building a complete game, the project focused on applying collaborative development practices, project planning, and iterative production from concept to delivery.'
@@ -174,7 +207,11 @@
         langValue: 'Event-Based Visual Scripting',
         devTime: '2 Months',
         teamSize: '6 Developers',
+<<<<<<< Updated upstream
         role: 'Gameplay Programmer, Game Designer',
+=======
+        role: 'Game Designer, Gameplay Programmer',
+>>>>>>> Stashed changes
         overview: {
           p1: 'Coya Slug is a university project inspired by classic arcade light gun shooters and retro action games.',
           p2: 'The game follows a Coya who is abducted by aliens after attending the local carnival. While searching for a way to escape the spaceship, he discovers that the artificial carnival foam Rey Momo damages the aliens, turning an everyday carnival item into his primary weapon.',
@@ -219,7 +256,11 @@
         intro: "A 2D platformer where a young inventor, accidentally shrunk to the size of insects, must battle an overwhelming pest invasion inside his family's candy factory using his experimental insecticide.",
         devTime: '2 Months',
         teamSize: '4 Developers',
+<<<<<<< Updated upstream
         role: 'Gameplay Programmer, Game Designer',
+=======
+        role: 'Game Designer, Gameplay Programmer',
+>>>>>>> Stashed changes
         overview: {
           p1: 'Pest Invasion is a 2D platformer developed as a university project. Players take control of Ricky, the son of a candy factory owner, who accidentally shrinks himself while creating an experimental insecticide capable of eliminating any insect.',
           p2: 'Now reduced to the size of the invading pests, Ricky must fight through swarms of ants, cockroaches, bees, and other insects while searching for a way to restore his original size.',
@@ -266,8 +307,13 @@
 
     es: {
       meta: {
+<<<<<<< Updated upstream
         title: 'Mauro Albarracín — Tester de QA &amp; Desarrollador de Videojuegos',
         description: 'Portfolio de Mauro Albarracín, Tester de QA y Desarrollador/Diseñador de Videojuegos.'
+=======
+        title: 'Mauro Albarracín — Diseñador &amp; Desarrollador de Videojuegos',
+        description: 'Portfolio de Mauro Albarracín, Diseñador &amp; Desarrollador de Videojuegos con experiencia en QA.'
+>>>>>>> Stashed changes
       },
       nav: { projects: 'Proyectos', skills: 'Habilidades', about: 'Sobre mí', contact: 'Contacto' },
       common: {
@@ -296,19 +342,34 @@
         email: 'Correo'
       },
       hero: {
+<<<<<<< Updated upstream
         eyebrow: 'Tester de QA &amp; Desarrollador de Videojuegos',
         line1: 'Probando, diseñando y construyendo',
         line2: 'experiencias jugables.',
         lead: 'Tester de QA con formación en Desarrollo y Diseño de Videojuegos. Abordo los juegos desde la perspectiva tanto del desarrollador como del jugador — combinando programación de gameplay, diseño y aseguramiento de calidad.',
+=======
+        eyebrow: 'Diseñador &amp; Desarrollador de Videojuegos',
+        line1: 'Diseñando sistemas, construyendo',
+        line2: 'experiencias jugables.',
+        lead: 'Diseñador y Desarrollador de Videojuegos con experiencia en QA. Abordo los juegos primero como diseñador, definiendo mecánicas y sistemas, y luego como desarrollador, dándoles vida a través de la programación de gameplay — con el aseguramiento de calidad como la mirada que mantiene cada detalle pulido.',
+>>>>>>> Stashed changes
         viewProjects: 'Ver proyectos'
       },
       projects: {
         heading: 'Proyectos Destacados',
+<<<<<<< Updated upstream
         aychanda: { tag1: 'Unity · Móvil', tag2: 'Proyecto Final', desc: 'Endless runner móvil desarrollado como proyecto final universitario junto a un equipo de 8 personas bajo metodología Agile.', role: 'Programador de Gameplay &amp; UI' },
         purifyingbubble: { tag1: 'Unity', tag2: 'Game Jam · 7 Días', desc: 'Puzzle de física en el que el jugador rota el mundo para guiar una burbuja a través del desierto, evitando espinas.', role: 'Diseñador de Juego/Niveles &amp; Programador' },
         gashero: { tag1: 'Unity', tag2: 'Game Jam · 3 Días', desc: 'Un plataformas humorístico: un superhéroe absurdo combate la contaminación... contaminando. Dash, UI y patrón Factory.', role: 'Programador de Gameplay &amp; UI' },
         coyaslug: { tag1: 'Construct 3', tag2: 'Proyecto Universitario', desc: 'Shooter de pistola de luz retro: un Coya enfrenta alienígenas con espuma de carnaval, construido con principios de POO y corrutinas.', role: 'Programador de Gameplay &amp; Diseñador' },
         pestinvasion: { tag1: 'Unity', tag2: 'Proyecto Universitario', desc: 'Plataformas 2D donde un inventor encogido combate una plaga de insectos usando comportamientos de enemigos personalizados y movimiento senoidal.', role: 'Programador de Gameplay &amp; Diseñador' }
+=======
+        aychanda: { tag1: 'Unity · Móvil', tag2: 'Proyecto Final', desc: 'Endless runner móvil desarrollado como proyecto final universitario junto a un equipo de 8 personas bajo metodología Agile.', role: 'Diseñador &amp; Programador de Gameplay/UI' },
+        purifyingbubble: { tag1: 'Unity', tag2: 'Game Jam · 7 Días', desc: 'Puzzle de física en el que el jugador rota el mundo para guiar una burbuja a través del desierto, evitando espinas.', role: 'Diseñador de Juego/Niveles &amp; Programador' },
+        gashero: { tag1: 'Unity', tag2: 'Game Jam · 3 Días', desc: 'Un plataformas humorístico: un superhéroe absurdo combate la contaminación... contaminando. Dash, UI y patrón Factory.', role: 'Programador de Gameplay &amp; UI' },
+        coyaslug: { tag1: 'Construct 3', tag2: 'Proyecto Universitario', desc: 'Shooter de pistola de luz retro: un Coya enfrenta alienígenas con espuma de carnaval, construido con principios de POO y corrutinas.', role: 'Diseñador &amp; Programador de Gameplay' },
+        pestinvasion: { tag1: 'Unity', tag2: 'Proyecto Universitario', desc: 'Plataformas 2D donde un inventor encogido combate una plaga de insectos usando comportamientos de enemigos personalizados y movimiento senoidal.', role: 'Diseñador &amp; Programador de Gameplay' }
+>>>>>>> Stashed changes
       },
       skills: {
         heading: 'Habilidades',
@@ -319,19 +380,32 @@
       },
       about: {
         heading: 'Sobre Mí',
+<<<<<<< Updated upstream
         p1: 'Soy Tester de QA con formación en Desarrollo y Diseño de Videojuegos, lo que me permite abordar los juegos desde la perspectiva tanto del desarrollador como del jugador.',
         p2: 'Me gradué como Técnico en Diseño Integral de Videojuegos en la Universidad Nacional de Jujuy, donde trabajé en múltiples proyectos colaborativos usando Unity y C#.',
         p3: 'A lo largo de mis proyectos, asumí responsabilidades que van desde la programación de gameplay y el diseño de juegos hasta el diseño de niveles y el aseguramiento de calidad. Esta experiencia me ayudó a entender el pipeline completo de desarrollo de videojuegos, comunicarme efectivamente con equipos multidisciplinarios e identificar problemas más allá del simple reporte de bugs.',
         p4: 'Como profesional de QA, disfruto analizar sistemas de gameplay, reproducir problemas, documentar bugs con claridad y brindar feedback accionable que mejora la experiencia general del jugador. Siempre estoy dispuesto a aprender nuevas tecnologías, colaborar con desarrolladores y contribuir a construir juegos pulidos y disfrutables.',
         stat1: 'Proyectos lanzados',
         stat2: '+ Dev + Diseño',
+=======
+        p1: 'Soy Diseñador y Desarrollador de Videojuegos con experiencia en QA, lo que me permite abordar los juegos primero como diseñador, definiendo la experiencia del jugador, y luego como desarrollador, construyendo los sistemas que le dan vida.',
+        p2: 'Me gradué como Técnico en Diseño Integral de Videojuegos en la Universidad Nacional de Jujuy, donde trabajé en múltiples proyectos colaborativos usando Unity y C#, asumiendo roles de diseño de juegos y programación de gameplay.',
+        p3: 'A lo largo de mis proyectos, lideré trabajo de diseño de juego y de niveles, traduje decisiones de diseño en código de gameplay funcional, y usé mi experiencia en QA para validar que las mecánicas se sintieran realmente bien en manos del jugador. Esto me dio una visión completa del pipeline de desarrollo, desde el concepto hasta una build pulida y testeada.',
+        p4: 'Disfruto prototipar mecánicas, redactar GDDs y balancear sistemas, para luego meter mano en la programación de gameplay y darle vida a esos diseños. Mi experiencia en QA suma una última capa de rigor: el hábito de testear a fondo y detectar problemas antes que los jugadores. Siempre estoy dispuesto a aprender nuevas tecnologías, colaborar con equipos multidisciplinarios y contribuir a construir juegos pulidos y disfrutables.',
+        stat1: 'Proyectos lanzados',
+        stat2: '+ Dev + QA',
+>>>>>>> Stashed changes
         stat3: 'Motores (Unity, Construct 3)'
       },
       aychanda: {
         tag: 'Endless Runner · Juego Móvil · Proyecto Final Universitario',
         devTime: '3 Meses',
         teamSize: '8 Desarrolladores',
+<<<<<<< Updated upstream
         role: 'Programador de Gameplay, Programador de UI &amp; Diseñador',
+=======
+        role: 'Diseñador de Juego, Programador de Gameplay &amp; Programador de UI',
+>>>>>>> Stashed changes
         overview: {
           p1: '¡Ay Chanda! es un endless runner móvil desarrollado como proyecto final universitario para la carrera de Diseño de Videojuegos. El proyecto fue creado por un equipo multidisciplinario a lo largo de tres meses, siguiendo una metodología Agile para simular un entorno profesional de desarrollo de videojuegos.',
           p2: 'Más allá de construir un juego completo, el proyecto se enfocó en aplicar prácticas de desarrollo colaborativo, planificación de proyectos y producción iterativa desde el concepto hasta la entrega.'
@@ -433,7 +507,11 @@
         langValue: 'Programación Visual Basada en Eventos',
         devTime: '2 Meses',
         teamSize: '6 Desarrolladores',
+<<<<<<< Updated upstream
         role: 'Programador de Gameplay, Diseñador de Juegos',
+=======
+        role: 'Diseñador de Juegos, Programador de Gameplay',
+>>>>>>> Stashed changes
         overview: {
           p1: 'Coya Slug es un proyecto universitario inspirado en los clásicos shooters de pistola de luz arcade y los juegos de acción retro.',
           p2: 'El juego sigue a un Coya que es abducido por alienígenas tras asistir al carnaval local. Mientras busca una forma de escapar de la nave espacial, descubre que la espuma artificial de carnaval del Rey Momo daña a los alienígenas, convirtiendo un objeto cotidiano del carnaval en su arma principal.',
@@ -478,7 +556,11 @@
         intro: 'Un plataformas 2D donde un joven inventor, encogido accidentalmente al tamaño de los insectos, debe combatir una abrumadora invasión de plagas dentro de la fábrica de golosinas de su familia usando su insecticida experimental.',
         devTime: '2 Meses',
         teamSize: '4 Desarrolladores',
+<<<<<<< Updated upstream
         role: 'Programador de Gameplay, Diseñador de Juegos',
+=======
+        role: 'Diseñador de Juegos, Programador de Gameplay',
+>>>>>>> Stashed changes
         overview: {
           p1: 'Pest Invasion es un plataformas 2D desarrollado como proyecto universitario. Los jugadores controlan a Ricky, el hijo del dueño de una fábrica de golosinas, quien se encoge accidentalmente mientras crea un insecticida experimental capaz de eliminar a cualquier insecto.',
           p2: 'Reducido ahora al tamaño de las plagas invasoras, Ricky debe combatir enjambres de hormigas, cucarachas, abejas y otros insectos mientras busca una forma de recuperar su tamaño original.',
