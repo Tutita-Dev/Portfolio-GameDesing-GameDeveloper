@@ -555,3 +555,31 @@ blockquote.reflection {
 }
 .next-project { font-size: 0.9rem; color: var(--muted); }
 .next-project strong { color: var(--text); display: block; font-size: 1rem; }
+
+/* ---- Level design case study additions ---- */
+.thumb-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1b2036 0%, var(--accent-color, var(--accent)) 140%);
+}
+.thumb-placeholder span {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 0.04em;
+  color: var(--text);
+}
+
+.content-block h3 { font-size: 1.05rem; margin: 22px 0 10px; color: var(--text); }
+.content-block h3:first-of-type { margin-top: 8px; }
+.content-block p strong, .content-block li strong { color: var(--text); font-weight: 600; }
+
+.design-table { width: 100%; border-collapse: collapse; margin: 6px 0 14px; font-size: 0.93rem; }
+.design-table th, .design-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.design-table th { color: var(--accent-color, var(--accent2)); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; }
+.design-table td:first-child { color: var(--text); font-weight: 600; white-space: nowrap; }
+.design-table td:last-child { color: var(--muted); }
+@media (max-width: 640px) {
+  .design-table td:first-child { white-space: normal; }
+}

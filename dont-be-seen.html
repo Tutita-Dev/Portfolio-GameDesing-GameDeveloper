@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Don't Be Seen — Mauro Albarracín</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body style="--accent-color:#f43f5e">
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="back-link" data-i18n="common.backHome">← Back to home</a>
+    <span class="brand" style="font-size:0.78rem;">MAURO ALBARRACÍN</span>
+    <div class="lang-switch" role="group" aria-label="Language selector">
+      <button type="button" class="lang-btn" data-lang="es">ES</button>
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
+    </div>
+  </div>
+</nav>
+
+<header class="project-header">
+  <div class="wrap">
+    <span class="pill" data-i18n="dontbeseen.tag">2D Platformer · Level Design · Studio Project</span>
+    <h1>Don't Be Seen</h1>
+    <div class="info-strip">
+      <div class="info-cell"><div class="k" data-i18n="common.engine">Engine</div><div class="v">Unity</div></div>
+      <div class="info-cell"><div class="k" data-i18n="dontbeseen.info.genre">Genre</div><div class="v" data-i18n="dontbeseen.info.genreV">2D Platformer</div></div>
+      <div class="info-cell"><div class="k" data-i18n="dontbeseen.info.studio">Studio</div><div class="v">Toasted Studio</div></div>
+      <div class="info-cell"><div class="k" data-i18n="dontbeseen.info.role">Role</div><div class="v" data-i18n="dontbeseen.info.roleV">Level Designer</div></div>
+      <div class="info-cell"><div class="k" data-i18n="dontbeseen.info.tasks">Tasks Completed</div><div class="v" data-i18n="dontbeseen.info.tasksV">9 tasks</div></div>
+    </div>
+    <!-- Add a banner here once you have a screenshot or cover image:
+    <div class="banner"><img src="images/DontBeSeen_Portada.png" alt="Don't Be Seen cover art"></div> -->
+  </div>
+</header>
+
+<div class="wrap project-body">
+  <div>
+    <div class="content-block">
+      <h2 data-i18n="common.overview">Overview</h2>
+      <p data-i18n="dontbeseen.overview.p1">Don't Be Seen is a 2D platformer set in a floating world of junk with no ground, where wardrobes, planks, car parts and pipes all work as platforms or obstacles. The player moves between safe Ghost Spaces by crossing dangerous Voids patrolled by the Red Eye.</p>
+      <p data-i18n="dontbeseen.overview.p2">The demo has three parts: a tutorial with Philippa that teaches every movement mechanic, a first mission with Tofu, and a second one with Leela, where the demo ends. I joined Toasted Studio as a volunteer Level Designer and completed 9 tasks across the tutorial and the Void that connects Tofu's and Leela's spaces.</p>
+    </div>
+
+    <div class="content-block">
+      <h2 data-i18n="common.myRole">My Role</h2>
+      <p class="role-line" data-i18n="dontbeseen.role">Level Designer (Volunteer) · Toasted Studio</p>
+    </div>
+
+    <div class="content-block">
+      <h2 data-i18n="common.keyContributions">Key Contributions</h2>
+      <p data-i18n="dontbeseen.contrib.intro">My work covered four areas of the demo. All 9 tasks are marked Done on the studio's task board:</p>
+      <ul class="contrib-list">
+        <li data-i18n="dontbeseen.contrib.i1">Designed three tutorial mechanics (climbing on slopes, sliding and swinging) so players discover them through the environment instead of instructions.</li>
+        <li data-i18n="dontbeseen.contrib.i2">Built three Unity blockouts (Climb + Push Pull, Crouch + Swing and the Second Void) using the project's standard block scale.</li>
+        <li data-i18n="dontbeseen.contrib.i3">Designed the Second Empty Void in 4 sections that teach a new ability, combine it with stealth and end with a breather.</li>
+        <li data-i18n="dontbeseen.contrib.i4">Dressed two areas (Area 3 and Area 7) with project assets without changing gameplay, keeping every functional marker readable.</li>
+        <li data-i18n="dontbeseen.contrib.i5">Followed the team workflow: Notion tasks, Miro layouts, prefab delivery and lead review before integration.</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <h2 data-i18n="common.designDecisions">Design Decisions</h2>
+      <p data-i18n="dontbeseen.design.intro">The design thinking behind each piece of work:</p>
+
+      <h3 data-i18n="dontbeseen.design.mech.title">Teaching mechanics indirectly</h3>
+      <ul class="contrib-list">
+        <li data-i18n="dontbeseen.design.mech.climb"><strong>Climbing:</strong> players gain height by running up inclined objects, with no explicit climb action. A car roof reads as a normal slope and then drops them into the sliding mechanic. Climbing also combines with push and pull: carry a cart up a curved slope and release it to break a barrier.</li>
+        <li data-i18n="dontbeseen.design.mech.slide"><strong>Sliding:</strong> a natural, safe way to lose height. After climbing a car roof the player thinks they must jump; breaking the windshield reveals a hidden ramp and forces a slide.</li>
+        <li data-i18n="dontbeseen.design.mech.swing"><strong>Swinging:</strong> phase one is a risk-free introduction on a wardrobe tower, with no fall into the Void. Phase two chains swings over the shadow zone: a long first jump and a fast rope-to-rope handoff.</li>
+      </ul>
+
+      <h3 data-i18n="dontbeseen.design.void.title">Second Empty Void</h3>
+      <p data-i18n="dontbeseen.design.void.p1">The Void between Tofu's and Leela's spaces teaches the Tuning Fork ability. Low frequencies activate switches from a distance and through walls, high frequencies shatter glass, and every use attracts the Red Eye.</p>
+      <table class="design-table">
+        <thead>
+          <tr><th data-i18n="dontbeseen.design.void.colSection">Section</th><th data-i18n="dontbeseen.design.void.colPlayer">What the player lives</th></tr>
+        </thead>
+        <tbody>
+          <tr><td data-i18n="dontbeseen.design.void.r1">1. Learn the ability</td><td data-i18n="dontbeseen.design.void.r1d">Each frequency in isolation, without pressure and with Tofu as a guide.</td></tr>
+          <tr><td data-i18n="dontbeseen.design.void.r2">2. Ability and stealth apart</td><td data-i18n="dontbeseen.design.void.r2d">Hide from the Red Eye's field of view and use the ability at different moments.</td></tr>
+          <tr><td data-i18n="dontbeseen.design.void.r3">3. Combined</td><td data-i18n="dontbeseen.design.void.r3d">Use the ability without being seen: fire from behind a sight-blocking block or hide in a box during a sweep.</td></tr>
+          <tr><td data-i18n="dontbeseen.design.void.r4">4. Breather</td><td data-i18n="dontbeseen.design.void.r4d">The Red Eye barely appears. It is the transition into Leela's space.</td></tr>
+        </tbody>
+      </table>
+      <p data-i18n="dontbeseen.design.void.p2">I also built its blockout in Unity: a clear path from entrance to exit, a Void of the right size filled with placeholder obstacles, a random patrol zone for the Red Eye, reachable hiding spots and a marked skill-use zone.</p>
+
+      <h3 data-i18n="dontbeseen.design.art.title">Asset placement without touching gameplay</h3>
+      <p data-i18n="dontbeseen.design.art.p1">In Area 3 and Area 7 I did the art pass on top of the approved blockout: no changes to sizes or positions, and the functional markers (hazards, skills, switches and the spiral hook) stayed in place. I worked only with the project's confirmed assets and checked each result against the concept art.</p>
+    </div>
+
+    <div class="content-block">
+      <h2 data-i18n="dontbeseen.process.title">Process &amp; Workflow</h2>
+      <ul class="contrib-list">
+        <li data-i18n="dontbeseen.process.i1">Tasks and review in Notion, with a status flow from Not started to Done, and layouts in Miro.</li>
+        <li data-i18n="dontbeseen.process.i2">Unity blockouts with standard 10- and 5-unit blocks, checked in a debug room. Each section is delivered as a single prefab.</li>
+        <li data-i18n="dontbeseen.process.i3">Final Review before integration, sending screenshots to the lead.</li>
+      </ul>
+    </div>
+  </div>
+
+  <aside class="sidebar-card">
+    <h3 data-i18n="common.toolsTech">Tools &amp; Technologies</h3>
+    <div>
+      <span class="pill">Unity</span>
+      <span class="pill">Notion</span>
+      <span class="pill">Miro</span>
+    </div>
+  </aside>
+</div>
+
+<!-- Add a gallery here once you have captures (blockouts, before/after art pass, layouts):
+<section class="gallery wrap">
+  <h2 data-i18n="common.gallery">Gallery</h2>
+  <div class="gallery-grid">
+    <img src="images/DontBeSeen_Blockout1.png" alt="Don't Be Seen blockout" loading="lazy">
+  </div>
+</section> -->
+
+<nav class="project-footer-nav">
+  <div class="wrap">
+    <a href="index.html" class="back-link" data-i18n="common.backHome">← Back to home</a>
+    <a href="ay-chanda.html" class="next-project"><span data-i18n="common.nextProject">Next project</span><strong>Ay Chanda! →</strong></a>
+  </div>
+</nav>
+
+<script src="i18n.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
