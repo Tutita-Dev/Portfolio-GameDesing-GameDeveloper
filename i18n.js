@@ -34,6 +34,8 @@
         backTo: 'Back to',
         homeStrong: 'Home →',
         viewCaseStudy: 'View full case study →',
+        inProgress: 'In Progress',
+        comingSoon: 'Case study coming soon',
         email: 'Email'
       },
       hero: {
@@ -215,57 +217,6 @@
         pillRetro: 'Retro Game Design',
         pillArcade: 'Arcade Mechanics'
       },
-      dontbeseen: {
-        tag: "2D Platformer · Level Design · Studio Project",
-        info: { genre: "Genre", genreV: "2D Platformer", studio: "Studio", role: "Role", roleV: "Level Designer", tasks: "Tasks Completed", tasksV: "9 tasks" },
-        role: "Level Designer (Volunteer) · Toasted Studio",
-        overview: {
-          p1: "Don't Be Seen is a 2D platformer set in a floating world of junk with no ground, where wardrobes, planks, car parts and pipes all work as platforms or obstacles. The player moves between safe Ghost Spaces by crossing dangerous Voids patrolled by the Red Eye.",
-          p2: "The demo has three parts: a tutorial with Philippa that teaches every movement mechanic, a first mission with Tofu, and a second one with Leela, where the demo ends. I joined Toasted Studio as a volunteer Level Designer and completed 9 tasks across the tutorial and the Void that connects Tofu's and Leela's spaces."
-        },
-        contrib: {
-          intro: "My work covered four areas of the demo. All 9 tasks are marked Done on the studio's task board:",
-          i1: "Designed three tutorial mechanics (climbing on slopes, sliding and swinging) so players discover them through the environment instead of instructions.",
-          i2: "Built three Unity blockouts (Climb + Push Pull, Crouch + Swing and the Second Void) using the project's standard block scale.",
-          i3: "Designed the Second Empty Void in 4 sections that teach a new ability, combine it with stealth and end with a breather.",
-          i4: "Dressed two areas (Area 3 and Area 7) with project assets without changing gameplay, keeping every functional marker readable.",
-          i5: "Followed the team workflow: Notion tasks, Miro layouts, prefab delivery and lead review before integration."
-        },
-        design: {
-          intro: "The design thinking behind each piece of work:",
-          mech: {
-            title: "Teaching mechanics indirectly",
-            climb: "<strong>Climbing:</strong> players gain height by running up inclined objects, with no explicit climb action. A car roof reads as a normal slope and then drops them into the sliding mechanic. Climbing also combines with push and pull: carry a cart up a curved slope and release it to break a barrier.",
-            slide: "<strong>Sliding:</strong> a natural, safe way to lose height. After climbing a car roof the player thinks they must jump; breaking the windshield reveals a hidden ramp and forces a slide.",
-            swing: "<strong>Swinging:</strong> phase one is a risk-free introduction on a wardrobe tower, with no fall into the Void. Phase two chains swings over the shadow zone: a long first jump and a fast rope-to-rope handoff."
-          },
-          void: {
-            title: "Second Empty Void",
-            p1: "The Void between Tofu's and Leela's spaces teaches the Tuning Fork ability. Low frequencies activate switches from a distance and through walls, high frequencies shatter glass, and every use attracts the Red Eye.",
-            colSection: "Section",
-            colPlayer: "What the player lives",
-            r1: "1. Learn the ability",
-            r1d: "Each frequency in isolation, without pressure and with Tofu as a guide.",
-            r2: "2. Ability and stealth apart",
-            r2d: "Hide from the Red Eye's field of view and use the ability at different moments.",
-            r3: "3. Combined",
-            r3d: "Use the ability without being seen: fire from behind a sight-blocking block or hide in a box during a sweep.",
-            r4: "4. Breather",
-            r4d: "The Red Eye barely appears. It is the transition into Leela's space.",
-            p2: "I also built its blockout in Unity: a clear path from entrance to exit, a Void of the right size filled with placeholder obstacles, a random patrol zone for the Red Eye, reachable hiding spots and a marked skill-use zone."
-          },
-          art: {
-            title: "Asset placement without touching gameplay",
-            p1: "In Area 3 and Area 7 I did the art pass on top of the approved blockout: no changes to sizes or positions, and the functional markers (hazards, skills, switches and the spiral hook) stayed in place. I worked only with the project's confirmed assets and checked each result against the concept art."
-          }
-        },
-        process: {
-          title: "Process & Workflow",
-          i1: "Tasks and review in Notion, with a status flow from Not started to Done, and layouts in Miro.",
-          i2: "Unity blockouts with standard 10- and 5-unit blocks, checked in a debug room. Each section is delivered as a single prefab.",
-          i3: "Final Review before integration, sending screenshots to the lead."
-        }
-      },
       pestinvasion: {
         tag: '2D Platformer · University Project',
         intro: "A 2D platformer where a young inventor, accidentally shrunk to the size of insects, must battle an overwhelming pest invasion inside his family's candy factory using his experimental insecticide.",
@@ -345,6 +296,8 @@
         backTo: 'Volver al',
         homeStrong: 'Inicio →',
         viewCaseStudy: 'Ver caso de estudio completo →',
+        inProgress: 'En progreso',
+        comingSoon: 'Caso de estudio próximamente',
         email: 'Correo'
       },
       hero: {
@@ -525,57 +478,6 @@
         pillPhysics: 'Física',
         pillRetro: 'Diseño de Juegos Retro',
         pillArcade: 'Mecánicas Arcade'
-      },
-      dontbeseen: {
-        tag: "Plataformas 2D · Diseño de Niveles · Proyecto de Estudio",
-        info: { genre: "Género", genreV: "Plataformas 2D", studio: "Estudio", role: "Rol", roleV: "Diseñador de Niveles", tasks: "Tareas completadas", tasksV: "9 tareas" },
-        role: "Diseñador de Niveles (Voluntario) · Toasted Studio",
-        overview: {
-          p1: "Don't Be Seen es un plataformas 2D ambientado en un mundo de basura flotante, sin suelo, donde armarios, tablones, partes de autos y tuberías funcionan como plataformas u obstáculos. El jugador pasa entre Ghost Spaces seguros cruzando Voids peligrosos vigilados por el Red Eye.",
-          p2: "El demo tiene tres partes: un tutorial con Philippa que enseña todas las mecánicas de movimiento, una primera misión con Tofu y una segunda con Leela, donde termina el demo. Me sumé a Toasted Studio como Level Designer voluntario y completé 9 tareas entre el tutorial y el Void que conecta los espacios de Tofu y Leela."
-        },
-        contrib: {
-          intro: "Mi trabajo cubrió cuatro áreas del demo. Las 9 tareas figuran como Done en el tablero del estudio:",
-          i1: "Diseñé tres mecánicas del tutorial (climbing en pendientes, sliding y swinging) para que el jugador las descubra a través del entorno y no con instrucciones.",
-          i2: "Construí tres blockouts en Unity (Climb + Push Pull, Crouch + Swing y el Second Void) con la escala estándar de bloques del proyecto.",
-          i3: "Diseñé el Second Empty Void en 4 secciones que enseñan una habilidad nueva, la combinan con sigilo y cierran con un respiro.",
-          i4: "Vestí dos áreas (Area 3 y Area 7) con assets del proyecto sin cambiar el gameplay, manteniendo legibles todos los marcadores funcionales.",
-          i5: "Seguí el flujo de trabajo del equipo: tareas en Notion, layouts en Miro, entrega en prefabs y revisión del lead antes de integrar."
-        },
-        design: {
-          intro: "El razonamiento de diseño detrás de cada pieza de trabajo:",
-          mech: {
-            title: "Enseñar mecánicas de forma indirecta",
-            climb: "<strong>Climbing:</strong> el jugador gana altura corriendo sobre objetos inclinados, sin una acción explícita de trepar. El techo de un auto se lee como una pendiente normal y luego lo deja caer hacia la mecánica de sliding. Además se combina con empujar y tirar: subir un carro por una pendiente curva y soltarlo para romper una barrera.",
-            slide: "<strong>Sliding:</strong> una forma natural y segura de perder altura. Después de escalar el techo de un auto, el jugador cree que debe saltar; romper el parabrisas revela una rampa oculta y lo obliga a deslizarse.",
-            swing: "<strong>Swinging:</strong> la fase uno es una introducción sin riesgo sobre una torre de armarios, sin caída al Void. La fase dos encadena balanceos sobre la zona de sombra: un primer salto largo y un traspaso rápido de soga a soga."
-          },
-          void: {
-            title: "Second Empty Void",
-            p1: "El Void entre los espacios de Tofu y Leela enseña la habilidad Tuning Fork. Las frecuencias bajas activan interruptores a distancia y a través de paredes, las altas rompen vidrio, y cada uso atrae al Red Eye.",
-            colSection: "Sección",
-            colPlayer: "Qué vive el jugador",
-            r1: "1. Aprender la habilidad",
-            r1d: "Cada frecuencia por separado, sin presión y con Tofu como guía.",
-            r2: "2. Habilidad y sigilo por separado",
-            r2d: "Esconderse del campo de visión del Red Eye y usar la habilidad en momentos distintos.",
-            r3: "3. Combinadas",
-            r3d: "Usar la habilidad sin ser visto: disparar desde detrás de un bloque que corta la visión o esconderse en una caja durante un barrido.",
-            r4: "4. Respiro",
-            r4d: "El Red Eye casi no aparece. Es la transición hacia el espacio de Leela.",
-            p2: "También construí su blockout en Unity: un recorrido claro de la entrada a la salida, un Void del tamaño correcto lleno de obstáculos placeholder, una zona de patrulla aleatoria para el Red Eye, escondites accesibles y una zona de uso de habilidad marcada."
-          },
-          art: {
-            title: "Asset placement sin tocar el gameplay",
-            p1: "En Area 3 y Area 7 hice el art pass sobre el blockout aprobado: sin cambiar tamaños ni posiciones, y dejando en su lugar los marcadores funcionales (peligros, habilidades, interruptores y el gancho en espiral). Trabajé solo con los assets confirmados del proyecto y revisé cada resultado contra el concept art."
-          }
-        },
-        process: {
-          title: "Proceso y flujo de trabajo",
-          i1: "Tareas y revisión en Notion, con un flujo de estados de Not started a Done, y layouts en Miro.",
-          i2: "Blockouts en Unity con bloques estándar de 10 y 5 unidades, verificados en una sala de debug. Cada sección se entrega como un único prefab.",
-          i3: "Final Review antes de integrar, enviando capturas al lead."
-        }
       },
       pestinvasion: {
         tag: 'Plataformas 2D · Proyecto Universitario',

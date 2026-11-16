@@ -583,3 +583,16 @@ blockquote.reflection {
 @media (max-width: 640px) {
   .design-table td:first-child { white-space: normal; }
 }
+
+/* ---- Work in progress card (not clickable) ---- */
+.project-card.is-wip { cursor: default; }
+.project-card.is-wip:hover { transform: none; border-color: var(--border); }
+.thumb-placeholder { position: relative; }
+.thumb-placeholder .wip-badge {
+  position: absolute; top: 12px; right: 12px;
+  padding: 4px 10px; border-radius: 999px;
+  font-family: var(--font-body, inherit); font-size: 0.7rem; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: #fff; background: var(--accent-color, var(--accent));
+}
+.project-card .go-wip { color: var(--muted); font-style: italic; }
