@@ -596,3 +596,9 @@ blockquote.reflection {
   color: #fff; background: var(--accent-color, var(--accent));
 }
 .project-card .go-wip { color: var(--muted); font-style: italic; }
+
+/* Case study figures */
+.figure { margin: 22px 0 0; }
+.figure img { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); display: block; }
+.figure figcaption { margin-top: 8px; font-size: 0.85rem; color: var(--muted); }
+.figure + p { margin-top: 20px; }
