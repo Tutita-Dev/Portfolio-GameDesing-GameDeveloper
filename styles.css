@@ -596,3 +596,5 @@ blockquote.reflection {
   color: #fff; background: var(--accent-color, var(--accent));
 }
 .project-card .go-wip { color: var(--muted); font-style: italic; }
+
+.play-link { margin: 6px 0 22px; }

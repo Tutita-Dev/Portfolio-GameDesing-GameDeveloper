@@ -13,6 +13,7 @@
       nav: { projects: 'Projects', skills: 'Skills', about: 'About', contact: 'Contact' },
       common: {
         backHome: '← Back to home',
+        playItch: '▶ Play on Itch.io',
         engine: 'Engine',
         language: 'Language',
         platform: 'Platform',
@@ -275,6 +276,7 @@
       nav: { projects: 'Proyectos', skills: 'Habilidades', about: 'Sobre mí', contact: 'Contacto' },
       common: {
         backHome: '← Volver al inicio',
+        playItch: '▶ Jugar en Itch.io',
         engine: 'Motor',
         language: 'Lenguaje',
         platform: 'Plataforma',
